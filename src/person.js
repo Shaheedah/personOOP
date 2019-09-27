@@ -6,8 +6,8 @@ class Person{
         this.interests = interests;
     }
     hello(){
-     console.log("Hello, my name is " + person.name +". " + "I am " + 
-     person.age +" "+ "years old." + " My interests are" +" "+ person.interests);
+     return "Hello, my name is " + person.name +". " + "I am " + 
+     person.age +" "+ "years old." + " My interests are" +" "+ person.interests;
 
     }
 }
